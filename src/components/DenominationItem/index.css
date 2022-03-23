@@ -1,0 +1,27 @@
+.list-container {
+  background-color: #382f5a;
+  border: 1px solid #ffffff;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.amount-button {
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  background-color: #382f5a;
+  color: #ffffff;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .amount-button {
+    width: 200px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .amount-button {
+    width: 500px;
+  }
+}
